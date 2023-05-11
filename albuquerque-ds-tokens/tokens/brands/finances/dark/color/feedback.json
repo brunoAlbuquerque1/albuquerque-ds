@@ -1,0 +1,51 @@
+{
+    "feedback": {
+        "color": {
+            "success": {
+                "pure": {
+                    "value": "#0CF26C"
+                },
+                "high-contrast": {
+                    "value": "#BBFAD5"
+                },
+                "medium-contrast": {
+                    "value": "#0CF26C"
+                },
+                "low-contrast": {
+                    "value": "#048C3D"
+                }
+            },
+            "error": {
+                "pure": {
+                    "value": "#F53131"
+                },
+                "high-contrast": {
+                    "value": "#FAAFAF"
+                },
+                "medium-contrast": {
+                    "value": "#FA7D7D"
+                },
+                "low-contrast": {
+                    "value": "#8F0012"
+                }
+            },
+            "alert": {
+                "pure": {
+                    "value": "#F2B20C"
+                },
+                "high-contrast": {
+                    "value": "#F5D993"
+                },
+                "medium-contrast": {
+                    "value": "#F2B20C"
+                },
+                "low-contrast": {
+                    "value": "#A67A08"
+                }
+            },
+            "button": {
+                "value": "#FFFFFF"
+            }
+        }
+    }
+}

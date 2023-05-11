@@ -1,0 +1,18 @@
+{
+    "color": {
+        "primary": {
+            "pure": {
+                "value": "#FFFFFF"
+            },
+            "light": {
+                "value": "#D9D9D9"
+            },
+            "medium": {
+                "value": "#7F7F7F"
+            },
+            "dark": {
+                "value":"#191919"
+            }
+        }
+    }
+}

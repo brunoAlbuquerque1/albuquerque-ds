@@ -1,0 +1,21 @@
+{
+    "neutral": {
+        "color": {
+            "pure": {
+                "value": "#000000"
+            },
+            "high-contrast": {
+                "value": "#333333"
+            },
+            "medium-contrast": {
+                "value": "#808080"
+            },
+            "low-contrast": {
+                "value":"#BFBFBF"
+            },
+            "button": {
+                "value": "#FFFFFF"
+            }
+        }
+    }
+}

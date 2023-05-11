@@ -1,0 +1,12 @@
+{
+  "font": {
+    "family": {
+      "primary": {
+        "value": "'Muli', sans-serif"
+      },
+      "secondary": {
+        "value": "'Merriweather', sans-serif"
+      }
+    }
+  }
+}

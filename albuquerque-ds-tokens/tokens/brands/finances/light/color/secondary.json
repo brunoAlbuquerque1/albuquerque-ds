@@ -1,0 +1,18 @@
+{
+    "color":{
+        "secondary": {
+            "pure": {
+                "value": "#F26522"
+            },
+            "light": {
+                "value": "#FFCEB8"
+            },
+            "medium": {
+                "value":"#F2824E"
+            },
+            "dark": {
+                "value":"#852500"
+            }
+        }
+    }
+}
