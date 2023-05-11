@@ -1,0 +1,21 @@
+{
+    "opacity": {
+        "level" : {
+            "semiopaque":{
+                "value": "72%"
+            },
+            "intense":{
+                "value": "64%"
+            },
+            "medium":{
+                "value": "32%"
+            },
+            "light":{
+                "value": "16%"
+            },
+            "semitransparent":{
+                "value": "8%"
+            }
+        }
+    }
+}
