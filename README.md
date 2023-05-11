@@ -1,2 +1,2 @@
 # Albuquerque-ds
-Projeto de criação do Design System próprio para serem usados em futuros projetos 
+Projeto de criação do Design System 
