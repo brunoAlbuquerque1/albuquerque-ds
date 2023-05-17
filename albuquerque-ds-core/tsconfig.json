@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es2020", "dom"],
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "strict": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": false,
+    "allowJs": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@wisereducacao/components/core": ["./src/components"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "alwaysShowRuleFailuresAsWarnings": true,
+        "configFile": "./tslint.json"
+      },
+      {
+        "name": "typescript-lit-html-plugin"
+      }
+    ]
+  },
+  "include": ["./src/components/**/*.ts*", "./declarations.d.ts"],
+  "exclude": [
+    "**/.*/",
+    "**/dist",
+    "**/node_modules",
+    "src/**/*.spec.ts*",
+    "src/**/*.test.ts*"
+  ]
+}

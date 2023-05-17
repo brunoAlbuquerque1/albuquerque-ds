@@ -1,0 +1,17 @@
+{
+  "main": {
+    "import": "./src/index.ts"
+  },
+  "typography": {
+    "import": "./src/components/typography/index.ts"
+  },
+  "button": {
+    "import": "./src/components/button/index.ts"
+  },
+  "icon": {
+    "import": "./src/components/icon/index.ts"
+  },
+  "select": {
+    "import": "./src/components/select/index.ts"
+  }
+}
