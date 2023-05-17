@@ -1,5 +1,5 @@
 {
-  "name": "@albuquerque-npm/albuquerque-ds-tokens",
+  "name": "@albuquerque/albuquerque-ds-tokens",
   "version": "0.1.7",
   "description": "module",
   "main": ".eslintrc.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/brunoAlbuquerque1/albuquerque-ds-tokens"
   },
   "keywords": [],
   "author": "",
