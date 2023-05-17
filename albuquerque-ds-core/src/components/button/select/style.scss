@@ -1,0 +1,180 @@
+@import "@albuquerque-npm/design-system-tokens/dist/scss/globals.scss";
+@import "@albuquerque-npm/design-system-tokens/dist/scss/ms/dark/dark.scss";
+
+@keyframes loading {
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+    height: 48px;
+    width: 100%;
+    min-width: max-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-nano;
+
+    border-radius: $border-radius-sm; 
+    padding: $spacing_inset-xxs;
+
+    font-family: $font-family-primary;
+    font-size: $font-size-xs;
+    font-weight: $font-weight-bold;
+
+    box-sizing: border-box;
+
+    dsc-icon {
+        height: 24px;
+    }
+
+    &-primary {
+        background-color: #000;
+        border: none;
+        color: $neutral-color-button;
+
+        ::part(icon-asset) {
+            color: $neutral-color-button;
+        }
+
+        &:focus, &:focus-visible {
+            background-color: mix($color-secondary-light, $color-secondary-pure, $opacity-level-medium);
+            ::part(icon-asset) {
+                color: $neutral-color-button;
+            }
+        }
+        &:not(&--loading) {
+            &:hover {
+                background-color: mix($color-secondary-light, $color-secondary-pure, $opacity-level-light);
+                ::part(icon-asset) {
+                    color: $neutral-color-button;
+                }
+            }
+            &:disabled {    
+                cursor: initial;
+                color: rgba($neutral-color-button,  $opacity-level-intense);
+                background-color: rgba($color-secondary-pure, $opacity-level-medium);
+                ::part(icon-asset) {
+                    color: rgba($neutral-color-button, $opacity-level-medium);
+                }
+            }
+        }
+
+        &--loading {
+            ::part(icon-asset) {
+                color: $neutral-color-button;
+                display: flex;
+            }
+            cursor: initial;
+            background-color: $color-secondary-pure;
+            dsc-icon {
+                animation: loading infinite linear 1.5s;
+            }
+            pointer-events: none;
+        }
+    }
+
+    &-secondary {
+        background-color: transparent;
+        border: solid $border-width-thin $neutral-color-pure;
+        color: $neutral-color-pure;
+
+        ::part(icon-asset) {
+            color: $neutral-color-pure;
+        }
+
+        &:focus, &:focus-visible {
+            background-color: rgba($neutral-color-pure, $opacity-level-semitransparent);
+            border-color: rgba($neutral-color-pure, $opacity-level-semiopaque);
+            ::part(icon-asset) {
+                color: $neutral-color-pure;
+            }
+        }
+        &:not(&--loading) {
+            &:hover {
+                color: $neutral-color-pure;
+                background-color: rgba($neutral-color-pure, $opacity-level-light);
+                ::part(icon-asset) {
+                    color: $neutral-color-pure;
+                }
+            }
+            &:disabled {    
+                cursor: initial;
+                border-color: rgba($neutral-color-pure, $opacity-level-medium);
+                color: rgba($neutral-color-pure, $opacity-level-medium);
+                background-color: rgba($color-secondary-pure, $opacity-level-semitransparent);
+                ::part(icon-asset) {
+                    color: rgba($neutral-color-button, $opacity-level-medium);
+                }
+            }
+        }
+
+        &--loading {
+            ::part(icon-asset) {
+                color: $neutral-color-pure;
+                display: flex;
+            }
+            cursor: initial;
+            background-color: transparent;
+            border: solid $border-width-thin $neutral-color-pure;
+            dsc-icon {
+                animation: loading infinite linear 1.5s;
+            }
+            pointer-events: none;
+            
+        }
+    }
+
+    &-tertiary {
+        background-color: transparent;
+        border: none;
+        color: $neutral-color-pure;
+
+        ::part(icon-asset) {
+            color: $neutral-color-pure;
+        }
+
+        &:focus, &:focus-visible {
+            color: rgba($neutral-color-pure, $opacity-level-intense);
+            ::part(icon-asset) {
+                color: rgba($neutral-color-pure, $opacity-level-intense);
+            }
+        }
+        &:not(&--loading) {
+            &:hover {
+                color: rgba($neutral-color-pure, $opacity-level-semiopaque);
+                ::part(icon-asset) {
+                    color: rgba($neutral-color-pure, $opacity-level-semiopaque);
+                }
+            }
+            &:disabled {    
+                cursor: initial;
+                border-color: rgba($neutral-color-pure, $opacity-level-medium);
+                color: rgba($neutral-color-button, $opacity-level-medium);
+                ::part(icon-asset) {
+                    color: rgba($neutral-color-button, $opacity-level-medium);
+                }
+            }
+        }
+
+        &--loading {
+            ::part(icon-asset) {
+                color: $neutral-color-pure;
+                display: flex;
+            }
+            cursor: initial;
+            background-color: transparent;
+            dsc-icon {
+                animation: loading infinite linear 1.5s;
+            }
+            pointer-events: none;
+        }
+    }
+
+}
