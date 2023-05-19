@@ -1,0 +1,128 @@
+@import "../../utils/scss/breakpoints.scss";
+@import "@albuquerque-npm/design-system-tokens/dist/scss/globals.scss";
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  display: inline;
+}
+
+.typography {
+  font-size: $font-size-xs;
+  font-weight: $font-weight-regular;
+
+  &-display {
+    &--x-display {
+      font-size: $font-size-xxxl;
+      font-weight: $font-weight-bold;
+
+      @include breakpoint(tablet) {
+        font-size: $font-size-giant;
+      }
+    }
+    &--display {
+      font-size: $font-size-xxl;
+      font-weight: $font-weight-bold;
+
+      @include breakpoint(tablet) {
+        font-size: $font-size-xxxl;
+      }
+    }
+  }
+
+  &-heading {
+    &--x-large {
+      font-size: $font-size-xl;
+      font-weight: $font-weight-bold;
+
+      @include breakpoint(tablet) {
+        font-size: $font-size-xxl;
+      }
+    }
+    &--large {
+      font-size: $font-size-lg;
+      font-weight: $font-weight-bold;
+    }
+    &--medium {
+      font-size: $font-size-md;
+      font-weight: $font-weight-bold;
+    }
+    &--small {
+      font-size: $font-size-sm;
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  &-subtitle {
+    &--large {
+      font-size: $font-size-lg;
+      font-weight: $font-weight-regular;
+    }
+    &--medium {
+      font-size: $font-size-md;
+      font-weight: $font-weight-regular;
+    }
+    &--small {
+      font-size: $font-size-sm;
+      font-weight: $font-weight-regular;
+    }
+  }
+
+  &-paragraph {
+    &--large {
+      font-size: $font-size-xs;
+      font-weight: $font-weight-regular;
+    }
+    &--large-bold {
+      font-size: $font-size-xs;
+      font-weight: $font-weight-bold;
+    }
+    &--small-bold {
+      font-size: $font-size-xxs;
+      font-weight: $font-weight-bold;
+    }
+    &--small {
+      font-size: $font-size-xxs;
+      font-weight: $font-weight-regular;
+    }
+    &--x-small {
+      font-size: $font-size-xxxs;
+      font-weight: $font-weight-regular;
+    }
+  }
+
+  &-label {
+    &--large {
+      font-size: $font-size-xs;
+      font-weight: $font-weight-regular;
+    }
+    &--small-bold {
+      font-size: $font-size-xxs;
+      font-weight: $font-weight-bold;
+    }
+    &--small {
+      font-size: $font-size-xxs;
+      font-weight: $font-weight-regular;
+    }
+    &--x-small {
+      font-size: $font-size-xxxs;
+      font-weight: $font-weight-regular;
+    }
+  }
+
+  &-caption {
+    font-size: $font-size-xxs;
+    font-weight: $font-weight-light;
+    &--x-small {
+      font-size: $font-size-xxxs;
+      font-weight: $font-weight-light;
+    }
+  }
+}

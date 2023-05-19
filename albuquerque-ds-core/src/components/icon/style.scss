@@ -1,0 +1,50 @@
+.icon {
+    all: unset;
+    color: transparent;
+    &--sm{
+      width: 16px;
+      height: 16px;
+    }
+    &--md{
+      width: 24px;
+      height: 24px;
+    }
+    &--lg{
+      width: 32px;
+      height: 32px;
+    }
+    svg {
+      width: inherit;
+      height: inherit;
+
+      rect:first-child {
+        fill: transparent;
+        stroke: transparent;
+      }
+  
+      path{
+        fill: transparent;
+        stroke: currentColor;
+      }
+      rect {
+        fill: transparent;
+        stroke: currentColor;
+      }
+      polyline {
+        fill: transparent;
+        stroke: currentColor;
+      }
+      polygon {
+        fill: transparent;
+        stroke: currentColor;
+      }
+      circle {
+        fill: transparent;
+        stroke: currentColor;
+      }
+      line {
+        fill: transparent;
+        stroke: currentColor;
+      }
+    }
+  }
