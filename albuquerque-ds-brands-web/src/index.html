@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="tokens/globals.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Lato:wght@300;400;500;600;700&Mulish:wght@300;400;500;600;700&family=Merriweather:wght@300;400;500;600display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // const linkColor = document.createElement("link");
+      // linkColor.setAttribute("rel", "stylesheet");
+      // linkColor.setAttribute("type", "text/css");
+
+      // const linkFont = document.createElement("link");
+      // linkFont.setAttribute("rel", "stylesheet");
+      // linkFont.setAttribute("type", "text/css");
+
+      const changeBrand = () => {
+        const head = document.querySelector("head");
+        const provider = document.querySelector("dsb-provider");
+        const brandSelect = document.querySelector("#brand");
+        const modeSelect = document.querySelector("#mode")
+        const brand = provider.getAttribute("brand");
+
+        if (brandSelect.value) {
+          // linkColor.setAttribute(
+          //   "href",
+          //   `tokens/${brandSelect.value}/${modeSelect.value}/${modeSelect.value}.css`
+          // );
+
+          // head?.appendChild(linkColor);
+          // head?.appendChild(linkFont);
+          provider?.setAttribute("brand", brandSelect.value);
+        }
+      };
+    </script>
+  </head>
+  <body style=" background-color: white;">
+  
+  </body>
+</html>
