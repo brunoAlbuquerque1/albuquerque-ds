@@ -17,7 +17,7 @@
     "allowJs": true,
     "baseUrl": "./src",
     "paths": {
-      "@wisereducacao/components/core": ["./src/components"]
+      "@albuquerque/components/core": ["./src/components"]
     },
     "plugins": [
       {
