@@ -1,24 +1,24 @@
-@import "@wisereducacao-npm/design-system-tokens/dist/scss/globals.scss";
+@import "@albuquerqueDS-npm/design-system-tokens/dist/scss/globals.scss";
 
 // WOL
 :host-context(dsb-provider[brand="wol"]) {
     &:host-context(dsb-provider[mode="dark"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/wol/dark/dark.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/wol/dark/dark.scss";
         @import "../../brandSheets/wol/button.scss";
     }
     &:host-context(dsb-provider[mode="light"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/wol/light/light.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/wol/light/light.scss";
         @import "../../brandSheets/wol/button.scss";
     }
 }
   
 :host(dsb-provider[brand="wol"]) {
     &:host(dsb-provider[mode="dark"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/wol/dark/dark.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/wol/dark/dark.scss";
         @import "../../brandSheets/wol/button.scss";
     }
     &:host(dsb-provider[mode="light"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/wol/light/light.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/wol/light/light.scss";
         @import "../../brandSheets/wol/button.scss";
     }
 }
@@ -27,22 +27,22 @@
 
 :host-context(dsb-provider[brand="ms"]) {
     &:host-context(dsb-provider[mode="dark"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/ms/dark/dark.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/ms/dark/dark.scss";
         @import "../../brandSheets/ms/button.scss";
     }
     &:host-context(dsb-provider[mode="light"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/ms/light/light.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/ms/light/light.scss";
         @import "../../brandSheets/ms/button.scss";
     }
 }
   
 :host(dsb-provider[brand="ms"]) {
     &:host(dsb-provider[mode="dark"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/ms/dark/dark.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/ms/dark/dark.scss";
         @import "../../brandSheets/ms/button.scss";
     }
     &:host(dsb-provider[mode="light"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/ms/light/light.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/ms/light/light.scss";
         @import "../../brandSheets/ms/button.scss";
     }
 }
@@ -50,22 +50,22 @@
 // LIVE
 :host-context(dsb-provider[brand="live"]) {
     &:host-context(dsb-provider[mode="dark"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/live/dark/dark.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/live/dark/dark.scss";
         @import "../../brandSheets/live/button.scss";
     }
     &:host-context(dsb-provider[mode="light"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/live/light/light.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/live/light/light.scss";
         @import "../../brandSheets/live/button.scss";
     }
 }
   
 :host(dsb-provider[brand="live"]) {
     &:host(dsb-provider[mode="dark"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/live/dark/dark.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/live/dark/dark.scss";
         @import "../../brandSheets/live/button.scss";
     }
     &:host(dsb-provider[mode="light"]) {
-        @import "@wisereducacao-npm/design-system-tokens/dist/scss/live/light/light.scss";
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/live/light/light.scss";
         @import "../../brandSheets/live/button.scss";
     }
 }

@@ -1,0 +1,24 @@
+@import "@albuquerqueDS-npm/design-system-tokens/dist/scss/globals.scss";
+
+// WOL
+:host-context(dsb-provider[brand="finance"]) {
+    &:host-context(dsb-provider[mode="dark"]) {
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/finance/dark/dark.scss";
+        @import "../../brandSheets/finance/typography.scss";
+    }
+    &:host-context(dsb-provider[mode="light"]) {
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/finance/light/light.scss";
+        @import "../../brandSheets/finance/typography.scss";
+    }
+}
+  
+:host(dsb-provider[brand="finance"]) {
+    &:host(dsb-provider[mode="dark"]) {
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/finance/dark/dark.scss";
+        @import "../../brandSheets/finance/typography.scss";
+    }
+    &:host(dsb-provider[mode="light"]) {
+        @import "@albuquerqueDS-npm/design-system-tokens/dist/scss/finance/light/light.scss";
+        @import "../../brandSheets/finance/typography.scss";
+    }
+}
