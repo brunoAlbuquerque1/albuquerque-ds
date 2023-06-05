@@ -19,10 +19,6 @@ export class DsbProvider extends LitElement {
   updated() {
     hostContextHelper(this);
 
-    // const provider = document.querySelector("dsb-provider");
-    // const brand = provider.getAttribute('brand').toUpperCase();
-    // const mode = provider.getAttribute('mode').toUpperCase();
-
     setRootStyle(this.brand, this.mode);
   }
 
