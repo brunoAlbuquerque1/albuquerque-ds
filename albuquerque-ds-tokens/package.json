@@ -1,6 +1,6 @@
 {
-  "name": "@albuquerque/albuquerque-ds-tokens",
-  "version": "0.1.7",
+  "name": "@albuquerque-npm/design-system-tokens",
+  "version": "0.1.1",
   "description": "module",
   "main": ".eslintrc.js",
   "files": [
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brunoAlbuquerque1/albuquerque-ds-tokens"
+    "url": "https://github.com/brunoAlbuquerque1/albuquerque-ds/tree/main/albuquerque-ds-tokens"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/brunoAlbuquerque1/albuquerque-ds/tree/main/albuquerque-ds-tokens"
   },
   "homepage": "",
   "devDependencies": {
